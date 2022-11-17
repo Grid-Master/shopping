@@ -1,0 +1,97 @@
+.mp-background {
+    background-image: url('../../images/bg2.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: 2;
+    transform: translateY(-85px);
+}
+
+.mp-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+.mp-desc-left .mp-desc-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    position: relative;
+}
+
+.mp-desc-left .mp-desc-title img {
+    position: absolute;
+    right: 65px;
+}
+
+.toAll {
+    position: relative;
+    line-height: 130%;
+    letter-spacing: 0.065em;
+    text-transform: lowercase;
+    color: #454747;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.toAll:hover .arrow {
+    right: -20px;
+}
+
+.arrow {
+    position: absolute;
+    top: 3px;
+    right: -35px;
+}
+
+.mp-desc span {
+    line-height: 130%;
+    letter-spacing: 0.065em;
+}
+
+.mp-cards {
+    display: flex;
+    gap: 17px;
+    padding-bottom: 130px;
+}
+
+.shoppers {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.shoppers span {
+    margin-top: 22px;
+}
+
+.mp-cards img {
+    border-radius: 15px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.mp-cards img:hover {
+    opacity: 0.9;
+}
+
+.mp-cards span {
+    bottom: 90px;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105.5%;
+    text-align: center;
+}
+
+.mp-cards-b {
+    margin-top: 17px;
+}
+
+.mp-cards-b img:not(:last-child) {
+    margin-right: 8px;
+}

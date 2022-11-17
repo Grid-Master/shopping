@@ -1,0 +1,8 @@
+.profilePopup {
+    width: 600px;
+    height: 600px;
+}
+
+.profilePopup-links {
+    display: flex;
+}

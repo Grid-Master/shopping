@@ -1,0 +1,7 @@
+.presentPhotoItem {
+    width: 150px;
+    height: 133px;
+    background-image: url(../../images/Ellipse.png);
+    display: flex;
+    align-items:center;
+}

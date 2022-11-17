@@ -1,0 +1,51 @@
+.sewingTop {
+    padding-top: 75px;
+    padding-bottom: 215px;
+    position: relative;
+}
+
+.sewingTop h2 {
+    max-width: 800px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #272525;
+    margin-bottom: 20px;
+}
+
+.sewingTop p {
+    max-width: 650px;
+    font-weight: 400;
+    line-height: 130%;
+    color: #454747;
+}
+
+.sewingTop img {
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.sewingTop-buttonDiv button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    padding: 18px 50px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #3C336C;
+    border-radius: 60px;
+    margin-top: 60px;
+}
+
+/* .sewingTop-buttonDiv  {
+    padding-bottom: 152px;
+} */
+
+.sewingTop-buttonDiv span {
+    font-size: 16px;
+    line-height: 130%;
+    color: #3C336C;
+    margin-left: 70px;
+}

@@ -1,0 +1,34 @@
+.popupGood {
+    display: flex;
+}
+
+.popupGood__photos {
+   margin-right: 56px;
+}
+
+.popupGood__photos-main {
+    margin-bottom: 10px;
+}
+
+.popupGood__photos-photo {
+    margin-right: 10px;
+}
+
+.popupGood-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #272525;
+    max-width: 596px;
+    margin-bottom: 20px;
+}
+
+.popupGood {
+    display: flex;
+    
+}
+
+.popupGood__order {
+    display: flex;
+}

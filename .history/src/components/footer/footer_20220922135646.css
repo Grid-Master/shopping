@@ -1,0 +1,145 @@
+.footer-bg {
+    background-image: url('../../images/bgFooter.png');
+    background-repeat: no-repeat;
+}
+
+.footer {
+    padding-top: 129px;
+    padding-bottom: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-categories li {
+    transition: .4s;
+}
+
+.footer-categories li:hover {
+    color:red;
+}
+
+.footer-socials p {
+    line-height: 130%;
+    letter-spacing: 0.065em;
+    color: #454747;
+    max-width: 439px;
+    margin-top: 15px;
+}
+
+.footer-socails-number {
+    margin-top: 40px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-socails-email {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #272525;
+}
+
+.footer-socails-list {
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer-socails-list li {
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.footer-categories {
+    margin-left: 170px;
+}
+
+.footer-categories h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #272525;
+    margin-bottom: 8px;
+}
+
+.footer-categories li {
+    line-height: 52px;
+    color: #454747;
+    cursor: pointer;
+}
+
+.footer-information {
+    margin-left: 164px;
+}
+
+.footer-information h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #272525;
+    margin-bottom: 8px;
+}
+
+.footer-information li {
+    line-height: 52px;
+    color: #454747;
+    cursor: pointer;
+}
+
+.footer-questions {
+    margin-left: 226px;
+}
+
+.footer-questions span {
+    font-weight: 600;
+    font-size: 20px;
+    color: #272525;
+    margin-bottom: 2px;
+}
+
+.footer-questions p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #8F90A6;
+    margin-bottom: 23px;
+}
+
+.footer-questions-form {
+    position: relative;
+}
+
+.footer-questions-form input {
+    padding: 15px 150px 15px 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #272525;
+    border-radius: 15px;
+}
+
+.footer-questions-form button {
+    position: absolute;
+    right: 0;
+    top: 7px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.footer-questions-arrow {
+    width: 34px;
+    height: 34px;
+    color: #524983;
+}
+
+.f2022 {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #9FA3B2;
+    padding-bottom: 40px;
+}
+
+.politic {
+    text-decoration-line: underline;
+    cursor: pointer;
+}

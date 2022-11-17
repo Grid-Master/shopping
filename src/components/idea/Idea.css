@@ -1,0 +1,89 @@
+.idea-bg {
+    margin-top: 75px;
+    background-image: url('../../images/ideaBg.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.idea-title {
+    max-width: 595px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #222227;
+    padding-top: 155px;
+    margin-bottom: 17px;
+}
+
+.idea-desc-1 {
+    max-width: 576px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.065em;
+    color: #454747;
+    margin-bottom: 93px;
+}
+
+.idea-desc-2 {
+    max-width: 576px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222227;
+    margin-bottom: 38px;
+}
+
+.idea-form {
+    padding-bottom: 134px;
+    display: flex;
+    align-items: center;
+}
+
+.idea-form-input {
+    line-height: 19px;
+    color: #454747;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    width: 336px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #272525;
+}
+
+.idea-form-input:not(:last-child) {
+    margin-right: 75px;
+}
+
+.idea-form button {
+    color: #FFFFFF;
+    background-color: #1FAB8A;
+    border-radius: 60px;
+    padding: 19px 103px;
+    border: none;
+    margin-left: 107px;
+    transition: .2s;
+}
+
+.idea-form button:hover {
+    opacity: 0.8;
+}
+
+.idea-img-1 {
+    position: absolute;
+    right: 49%;
+    top: 250px;
+}
+
+.idea-img-2 {
+    position: absolute;
+    right: 9%;
+    top: 80px;
+}
+
+.idea-img-3 {
+    position: absolute;
+    right: 20%;
+    top: 35px;
+}

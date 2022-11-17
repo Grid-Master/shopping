@@ -1,0 +1,48 @@
+.sewingGrid-bg {
+    padding-top: 75px;
+    padding-bottom:110px;
+    background-image: url('../../images/bg2.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    z-index: 2;
+    transform: translateY(-120px);
+}
+
+.sewingGrid-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #272525;
+}
+
+.sewingGrid-desc {
+    display: block;
+    line-height: 130%;
+    letter-spacing: 0.065em;
+    text-transform: lowercase;
+    color: #454747;
+    margin-bottom: 30px;
+}
+
+.sewingGrid-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.sewingGrid-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.sewingGrid-grid-item:hover {
+    opacity: 0.7;
+}
+
+.sewingGrid-grid-item img {
+    border-radius: 15px;
+    margin-bottom: 11px;
+}

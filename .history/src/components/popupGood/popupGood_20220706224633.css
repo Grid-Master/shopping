@@ -1,0 +1,11 @@
+.popupGood {
+    display: flex;
+}
+
+.popupGood__photos-main {
+margin-bottom: 10px;
+}
+
+.popupGood__order {
+    display: flex;
+}

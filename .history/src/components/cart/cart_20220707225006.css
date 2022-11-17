@@ -1,0 +1,11 @@
+.cart {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    border-radius: 50%;
+    align-items: center
+}
+
+.cart img {
+
+}

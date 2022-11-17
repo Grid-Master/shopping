@@ -1,0 +1,30 @@
+.sewingInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sewingInfo-item {
+    max-width: 415px;
+}
+
+.sewingInfo-item h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    color: #272525;
+    margin-bottom: 20px;
+}
+
+.sewingInfo-item-desc {
+    font-size: 16px;
+    line-height: 130%;
+    color: #454747;
+}
+
+.forYesterday {
+    color: #524983;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+}

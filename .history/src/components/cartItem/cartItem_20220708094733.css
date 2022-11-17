@@ -1,0 +1,20 @@
+.cartItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartItem-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 24px;
+}
+
+.cartItem-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #272525;
+    max-width: 215px;
+    margin-right: 33px;
+}

@@ -1,0 +1,23 @@
+.goodsComponentItem {
+    width: 378px;
+    background-color: #ffffff;
+    border-radius: 12px 12px 0 0;
+}
+
+.goodsComponentItem-top {
+    position: relative;
+    background-color: #F1F1F8;
+    border-radius: 12px 12px 0 0;
+}
+
+.goodsComponentItem-photo {
+    padding-top: 19px;
+    padding-left: 45px;
+}
+
+.goodsComponentItem-favorite {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    
+}

@@ -1,0 +1,20 @@
+.cartPopup {
+    display: flex;
+}
+
+.cartPopup__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #272525;
+    margin-bottom: 11px;
+}
+
+.cartPopup__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #454747;
+    max-width: 279px;
+    margin-bottom: 39px;
+}

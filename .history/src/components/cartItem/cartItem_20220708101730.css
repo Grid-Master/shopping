@@ -1,0 +1,117 @@
+.cartItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartItem-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 24px;
+}
+
+.cartItem-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #272525;
+    max-width: 215px;
+    margin-right: 33px;
+}
+
+.cartItem__features {
+    display: flex;
+    flex-direction: column;
+    margin-right: 27px;
+    position: relative;
+}
+
+.cartItem__fetures-color-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #454747;
+    margin-bottom: 11px;
+}
+
+.cartItem__fetures-color {
+    height: 16px;
+    width: 16px;
+    background-color: #309F85;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    top: 0;
+}
+
+.cartItem__fetures-size-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 105.5%;
+    color: #9FA3B2;
+    margin-bottom: 5px;
+}
+
+.cartItem__fetures-size {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 105.5%;
+    color: #272525;
+    padding-left: 15px;
+}
+
+.cartItem__amount {
+    align-items: center
+}
+
+.cartItem__amount>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+.cartItem__amount-value-name {
+    padding-left: 8px;
+    padding-top: 26px;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 105.5%;
+    color: #9FA3B2;
+    margin-bottom: 5px;
+}
+
+.cartItem__amount-btn {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+    border: 0.5px solid #272525;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 105.5%;
+    color: #272525;
+    cursor: pointer;
+}
+
+.cartItem__amount-value {
+    display: flex;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 105.5%;
+    color: #272525;
+    width: 32px;
+    justify-content: center;
+    position: relative;
+}
+
+.cartItem__amount-min {
+    font-weight: 400;
+    font-size: 9px;
+    color: #272525;
+    position: absolute;
+    bottom: -13px;
+}

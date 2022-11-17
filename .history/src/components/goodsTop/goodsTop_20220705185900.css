@@ -1,0 +1,13 @@
+.sewingTop {
+    padding-top: 75px;
+    position: relative;
+}
+
+.goodsTop h2 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #272525;
+}

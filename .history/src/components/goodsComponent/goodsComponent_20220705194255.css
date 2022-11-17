@@ -1,0 +1,16 @@
+.goodsComponent {
+    background-color: aqua;
+}
+
+.goodsComponent-categoryList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goodsComponent-categoryList li {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105.5%;
+    text-align: center;
+    color: #8E8E8E;
+}

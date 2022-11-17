@@ -1,0 +1,168 @@
+.popupGood {
+    display: flex;
+    position: relative;
+}
+
+.popupGood__photos {
+    margin-right: 56px;
+    width: 580px;
+}
+
+.popupGood__photos-main {
+    margin-bottom: 10px;
+    width: 500px;
+    height: 580px;
+    object-fit: cover;
+}
+
+.popupGood__photos-photo {
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.popupGood-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #272525;
+    max-width: 596px;
+    margin-bottom: 20px;
+}
+
+.popupGood-colors {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.popupGood-price {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105.5%;
+    color: #272525;
+    margin-bottom: 10px;
+}
+
+.popupGood__desc {
+    font-size: 16px;
+    line-height: 130%;
+    color: #454747;
+    max-width: 506px;
+    margin-bottom: 30px;
+}
+
+.popupGood__order {
+    display: flex;
+    flex: 1;
+}
+
+.popupGood__order-form {
+    margin-right: 55px;
+    margin-bottom: 140px;
+}
+
+.popupGood__order-form-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105.5%;
+    color: #272525;
+    margin-bottom: 10px;
+}
+
+.popupGood__order-form-sizes {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.popupGood__order-form-size {
+    margin-right: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 105.5%;
+    color: #524983;
+    cursor: pointer;
+}
+
+.popupGood__order-form>span {
+    position: relative;
+    padding-left: 27px;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    color: #524983;
+    margin-bottom: 45px;
+    cursor: pointer;
+    max-width: fit-content;
+}
+
+.popupGood__order-form>span>img {
+    position: absolute;
+    left: 0;
+}
+
+.popupGood__order-form>button {
+    padding: 18px 83px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #524983;
+    border-radius: 60px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.popupGood__order-form>button:hover {
+    opacity: 0.9;
+}
+
+.popupGood__order-features {
+    max-width: 332px;
+    flex: 1;
+}
+
+.popupGood__order-features-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 105.5%;
+    color: #272525;
+    margin-bottom: 14px;
+}
+
+.popupGood__order-features-list-item {
+    display: flex;
+    border-bottom: 1px solid #524983;
+    margin-bottom: 11px;
+    align-items: center;
+}
+
+.popupGood__order-features-list-item-name {
+    display: block;
+    font-size: 16px;
+    line-height: 105.5%;
+    color: #272525;
+    flex: 1;
+}
+
+.popupGood__order-features-list-item-info {
+    display: block;
+    font-size: 16px;
+    line-height: 105.5%;
+    color: #454747;
+    flex: 1;
+    max-width: 190px;
+}
+
+.closePopupButton {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}

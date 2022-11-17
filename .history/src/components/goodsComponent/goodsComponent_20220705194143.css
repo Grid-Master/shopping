@@ -1,0 +1,7 @@
+.goodsComponent {
+    background-color: aqua;
+}
+
+.goodsComponent-categoryList {
+    display: flex;
+}

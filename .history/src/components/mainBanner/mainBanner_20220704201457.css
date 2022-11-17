@@ -1,0 +1,47 @@
+.main__banner {
+    margin-top: 75px;
+    position: relative;
+}
+
+.main__banner h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #272525;
+    max-width: 700px;
+}
+
+.main__banner p {
+    max-width: 625px;
+    letter-spacing: 0.065em;
+    line-height: 130%;
+    margin-bottom: 181px;
+}
+
+.main__banner-list {
+    display: flex;
+    padding-bottom: 207px;
+}
+
+.main__banner-list-item {
+    font-weight: 600;
+    font-size: 21.8449px;
+    line-height: 26px;
+    text-align: center;
+    position: relative;
+    max-width: 230px;
+}
+
+.circle {
+    position: absolute;
+    top: -105px;
+    left: 65px;
+}
+
+.girls {
+    position: absolute;
+    right: 0;
+    top: -40px;
+}

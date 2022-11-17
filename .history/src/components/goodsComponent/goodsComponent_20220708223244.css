@@ -1,0 +1,83 @@
+ /* .goodsComponent {
+   /* transform: translateY(-100px); */
+ /* }  */
+
+ .goodsComponent-container {
+    transform: translateY(-250px);
+ }
+
+ .goodsComponent-categoryList-bg {
+     background-image: url(../../images/shapka1.png);
+     object-fit: cover;
+     width: 100%;
+     /* background: red; */
+ }
+
+ .goodsComponent-categoryList {
+    padding-top: 150px;
+    padding-bottom: 60px;
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 60px;
+ }
+
+ .goodsComponent-categoryList>li:hover {
+     color: #FAFAFA;
+     background: #272525;
+     box-shadow: 0px 16.0566px 20.0707px -4.01414px rgba(26, 32, 44, 0.1), 0px 8.02828px 8.02828px -4.01414px rgba(26, 32, 44, 0.04);
+     border-radius: 6px;
+ }
+
+ .goodsComponent-categoryList::before {
+     content: '';
+     max-width: 1600px;
+     width: 100%;
+     height: 8px;
+     border-radius: 6px;
+     position: absolute;
+     background-color: #F2F1F8;
+     top: -41px;
+ }
+
+ .goodsComponent-categoryList li {
+     padding: 15px;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 105.5%;
+     text-align: center;
+     color: #8E8E8E;
+     cursor: pointer;
+ }
+
+ .goodsComponent-list {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     column-gap: 30px;
+     row-gap: 27px;
+     margin-bottom: 30px;
+ }
+
+ .goodsComponent-showMore {
+     position: relative;
+     cursor: pointer;
+     margin-left: 16px;
+     max-width: 180px;
+ }
+
+ .goodsComponent-showMore span {
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 130%;
+     color: #272525;
+ }
+
+ .goodsComponent-showMore img {
+     position: absolute;
+     left: 180px;
+     top: 10px;
+ }
+
+ .hide {
+     transform: rotate(180deg);
+ }

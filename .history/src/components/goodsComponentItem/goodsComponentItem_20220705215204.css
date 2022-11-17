@@ -1,0 +1,12 @@
+.goodsComponentItem {
+    width: 378px;
+    background-color: #ffffff;
+}
+
+.goodsComponentItem-top {
+position: relative;
+}
+
+.goodsComponentItem-favorite {
+    position: absolute;
+}

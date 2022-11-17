@@ -1,0 +1,9 @@
+.sewingInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sewingInfo-item {}
+
+.sewingInfo-item h3 {}

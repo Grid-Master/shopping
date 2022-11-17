@@ -1,0 +1,20 @@
+.goodsComponentItem {
+    width: 378px;
+    background-color: #ffffff;
+}
+
+.goodsComponentItem-top {
+    position: relative;
+    background-color: #F1F1F8;
+}
+
+.goodsComponentItem-photo {
+    padding-top: 19px;
+    padding-left: 45px;
+}
+
+.goodsComponentItem-favorite {
+    position: absolute;
+    
+    
+}
