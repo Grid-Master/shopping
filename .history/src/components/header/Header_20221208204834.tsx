@@ -2,7 +2,7 @@ import './header.css'
 import { FiSearch } from 'react-icons/fi'
 import { IoPersonOutline } from 'react-icons/io5'
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Modal from '../../units/modal/Modal';
 import ProfilePopup from '../profilePopup/ProfilePopup';
 
@@ -15,6 +15,7 @@ type Props = {
 
 const Header: React.FC<Props> = ({openProfile, setOpenProfile}) => {
     // const [openProfile, setOpenProfile] = useState<boolean>(false)
+    const searchRef = useRef();
 
     return (
         <div className='container'>
